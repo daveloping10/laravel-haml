@@ -161,7 +161,9 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider {
 					  8 => 'haml',
 					  9 => 'haml',
 					  10 => 'haml',
-					  11 => 'haml'
+					  11 => 'haml',
+					  12 => 'haml',
+					  13 => 'haml'
         ];
 
 		$key = $configFiles[$this->version()];
