@@ -75,6 +75,9 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider {
 			case 9: $this->bootLaravel5(); break;
 			case 10: $this->bootLaravel5(); break;
 			case 11: $this->bootLaravel5(); break;
+			// Untested below
+			case 12: $this->bootLaravel5(); break;
+			case 13: $this->bootLaravel5(); break;
 			default: throw new Exception('Unsupported Laravel version');
 		}
 
